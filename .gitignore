@@ -1,0 +1,59 @@
+# macOS 本地元数据
+.DS_Store
+*/.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Python 解释器与构建产物
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Python 工具缓存
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+.ipynb_checkpoints/
+
+# 虚拟环境与本地依赖目录
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# 本地配置与密钥
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+
+# 日志和临时输出
+*.log
+tmp/
+temp/
+.cache/
+
+# 编辑器和 IDE 本地配置
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
