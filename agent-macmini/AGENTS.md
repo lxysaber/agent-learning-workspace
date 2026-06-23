@@ -134,6 +134,7 @@ print(json.dumps(result, ensure_ascii=False, indent=2))
 
 ## Agent 示例规范
 
+- 遇到 Agent 相关问题时，可优先查阅知识笔记目录：`/Users/shitou/WWWLLL/obsidian-workspace/30-学习/知识笔记/Agent`。
 - 工具定义、模型调用和业务逻辑尽量分离。
 - 工具参数应有明确名称、类型和描述，并在执行前进行校验。
 - Agent 循环必须设置最大步数，避免无限调用。
